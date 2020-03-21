@@ -231,6 +231,33 @@ footer nav a {
 	text-decoration: none;
 }
 
+/* Navbar */
+nav {
+	padding: 40px 0;
+	display: flex;
+	align-items: baseline;
+	width: 100%;
+}
+
+nav ul {
+	width: 100%;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: inherit;
+	color: inherit;
+}
+
+/* image  */
+.header-image {
+	margin-bottom: 20px;
+}
+
 /* Box Colors */
 #box-1 {
 	background: teal;
