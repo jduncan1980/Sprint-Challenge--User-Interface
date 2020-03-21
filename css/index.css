@@ -251,6 +251,16 @@ nav a {
 	text-decoration: none;
 	font-family: inherit;
 	color: inherit;
+	transition: all 0.7s;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: white;
+	background-color: black;
+	transform: scale(1.4);
+	/* padding: 10px; */
+	border-radius: 10px;
 }
 
 /* image  */
