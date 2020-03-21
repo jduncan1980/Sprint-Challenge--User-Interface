@@ -244,6 +244,11 @@ nav a:hover {
 	padding: 10px;
 }
 
+.card .inner {
+	display: flex;
+	flex-direction: column;
+}
+
 .card img {
 	margin-bottom: 15px;
 }
@@ -282,4 +287,28 @@ nav a:hover {
 	flex-direction: column;
 	align-self: center;
 	width: 95%;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+	.cards {
+		flex-direction: column;
+		align-items: center;
+	}
+	.card {
+		flex-direction: row;
+		width: 100%;
+	}
+	.card .inner {
+		margin-left: 20px;
+	}
+	.card button {
+		width: 60%;
+	}
+	.line {
+		display: none;
+	}
 }
